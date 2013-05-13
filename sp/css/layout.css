@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* ---------------------------------------------------------------
+	BASIC
+--------------------------------------------------------------- */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	color: #41250f;
+	background: #f9f1ed;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #41250f;
+}
+a:visited {
+	color: #41250f;
+}
+a:hover {
+	color: #41250f;
+}
+article {
+}
+header {
+}
+header h1 {
+	margin: 0;
+	padding: 10px;
+	width: 100px;
+	height: 44px;
+	float: left;
+}
+header h1 a {
+	display: block;
+}
+div#sns_link {
+	padding: 10px;
+	width: 44px;
+	height: 44px;
+	float: right;
+}
+header aside {
+	background: #41250f;
+}
+header aside nav {
+	margin: 0 auto;
+	width: 295px;
+}
+header aside nav ul {
+	margin: 0;
+	padding: 0;
+}
+header aside nav ul li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	border-right: 1px solid #ffffff;
+	padding: 0;
+	width: 73px;
+	text-align: center;
+	line-height: 44px;
+	font-size: 12px;
+	color: #ffffff;
+	text-shadow: none;
+}
+header aside nav ul li.last {
+	border-right: none;
+}
+header aside nav ul li a {
+	display: block;
+}
+header aside nav ul li a:link {
+	color: #ffffff;
+}
+header aside nav ul li a:visited {
+	color: #ffffff;
+}
+header aside nav ul li a:hover {
+	color: #ffffff;
+}
+div#slider img {
+	width: 100%;
+}
+section {
+	margin-bottom: 10px;
+}
+section h1 {
+	margin: 0;
+	padding: 10px;
+	width: 100px;
+	color: #41250f;
+	font-size: 14px;
+	float: left;
+}
+.more {
+	margin: 0;
+	padding: 10px;
+	width: 100px;
+	color: #a3844b;
+	font-size: 12px;
+	float: right;
+	text-align: right;
+}
+.thumbnail_list {
+	margin: 0;
+	border-top: 3px solid #41250f;
+	padding: 0;
+	list-style: none;
+}
+.thumbnail_list li {
+	margin: 0 10px;
+	border-bottom: 1px solid #dbd4d0;
+	padding: 10px 54px 10px 0;
+	font-size: 10px;
+	background: url("../img/arrow.png") 100% 50% no-repeat;
+	background-size: 44px 44px;
+	box-shadow:1px 1px 1px #ffffff;
+}
+.thumbnail_list li a {
+	display: block;
+}
+.thumbnail_list li a span {
+	color: #b98270;
+}
+.thumbnail_list li a img {
+	display: block;
+	margin-right: 10px;
+	float: left;
+}
+.hot_items_wrap {
+	border-top: 3px solid #41250f;
+	height: 100px;
+	background: #ffffff;
+}
+.styling_wrap {
+	border-top: 3px solid #41250f;
+}
+.styling {
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	width: 310px;
+	list-style: none;
+}
+.styling li {
+	margin-right: 10px;
+	width: 70px;
+	float: left;
+	font-size: 10px;
+}
+.styling li.last {
+	margin-right: 0;
+}
+#f_nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-top: 3px solid #41250f;
+}
+#f_nav li {
+	border-bottom: 3px solid #41250f;
+	line-height: 44px;
+	padding-left: 10px;
+}
+#f_nav li a {
+	display: block;
+	margin-right: 10px;
+	background: url("../img/arrow.png") 100% 50% no-repeat;
+	background-size: 44px 44px;
+}
+.c_c {
+	text-align: center;
+}
+#switch {
+	text-align: center;
+}
+#f_link {
+	list-style: none;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+#f_link li {
+	margin-left: 10px;
+	padding-left: 10px;
+	line-height: 25px;
+	font-size: 12px;
+	background: url("../img/icon-arrow.gif") 0% 50% no-repeat;
+	background-size: 5px 7px;
+}
+#copyright {
+	background: #41250f;
+}
+#copyright p {
+	margin: 0;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	color: #ffffff;
+	text-shadow: none;
+}
